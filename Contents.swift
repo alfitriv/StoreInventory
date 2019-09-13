@@ -155,6 +155,7 @@ extension String {
     }
 }
 
+/* Uncomment to utilize the predifined items and store
 var item1 = Item(name: "Pencil", quantityStock: 4, availability: 4, price: 10000, category: .SchoolSupplies)
 
 var item2 = Item(name: "Lipstick", quantityStock: 3, availability: 3, price: 12000, category: .BeautyCosmetics)
@@ -166,49 +167,4 @@ var item4 = Item(name: "Brush", quantityStock: 1, availability: 1, price: 10000,
 var myStore = Store(stockInventory: [], shoppingCart: ShoppingCart(items: [], totalPrice: 0))
 
 print(myStore)
-
-myStore.addItemStockToInventory(item: item1)
-
-print(myStore)
-
-myStore.addItemStockToInventory(item: item2)
-
-print(myStore)
-
-myStore.printListOfItemsGivenCategory(category: .BeautyCosmetics)
-
-print(myStore.shoppingCart.items)
-
-myStore.addItemsToCart(item: item2, amount: 2)
-
-print(myStore.shoppingCart.items)
-
-print(myStore.stockInventory)
-
-myStore.printShoppingCartItems()
-
-print(myStore.shoppingCart.items)
-
-myStore.checkout()
-
-print(myStore.shoppingCart.items)
-
-print(myStore.stockInventory)
-
-myStore.checkout()
-
-myStore.addItemsToCart(item: item1, amount: 2)
-
-print(myStore.shoppingCart.items)
-
-myStore.printShoppingCartItems()
-
-print(myStore.stockInventory)
-
-myStore.checkout()
-
-myStore.printShoppingCartItems()
-
-myStore.addItemsToCart(item: item3, amount: 1)
-
-myStore.printShoppingCartItems()
+ */
